@@ -3,7 +3,7 @@ package IndianStateCensusAnalyser;
 public class CensusAnalyserException extends Exception {
 
 	enum ExceptionType {
-        CENSUS_FILE_PROBLEM,WRONG_FILE_TYPE,NO_SUCH_FILE
+        CENSUS_FILE_PROBLEM,WRONG_FILE_TYPE,NO_SUCH_FILE,UNABLE_TO_PARSE
     }
 
     ExceptionType type;
